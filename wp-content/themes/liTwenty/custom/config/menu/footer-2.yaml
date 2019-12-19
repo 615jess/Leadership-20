@@ -1,0 +1,8 @@
+ordering:
+  locations: ''
+items:
+  locations:
+    attributes: {  }
+    dropdown_dir: right
+    dropdown_hide: '1'
+    width: auto

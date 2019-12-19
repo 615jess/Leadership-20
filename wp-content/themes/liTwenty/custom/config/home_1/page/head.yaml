@@ -1,0 +1,26 @@
+atoms:
+  -
+    id: assets-1669
+    type: assets
+    title: 'Custom CSS / JS'
+    attributes:
+      enabled: '1'
+      css:
+        - { location: '', inline: "#countr {\n  width: auto;\n  height: auto;\n  background: red;\n  -moz-border-radius: 50px;\n  -webkit-border-radius: 50px;\n  border-radius: 50px;\n  float: left;\n  margin: 5px;\n}\n.count {\n  line-height: 100px;\n  color: white;\n  margin-left: 30px;\n  font-size: 25px;\n}\n\n.linker {\n  font-size: 20px;\n  font-color: black;\n}\nspan.count{display:block; font-size: 4em; text-align: center; }\n", extra: {  }, priority: '0', name: 'Counter css' }
+      javascript:
+        - { location: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js', inline: '', in_footer: '0', extra: {  }, priority: '0', name: query }
+        - { location: '', inline: "$('.count').each(function () {\n    $(this).prop('Counter',0).animate({\n        Counter: $(this).text()\n    }, {\n        duration: 4000,\n        easing: 'swing',\n        step: function (now) {\n            $(this).text(Math.ceil(now));\n        }\n    });\n});", in_footer: '1', extra: {  }, priority: '0', name: 'Counter-stats javascript' }
+  -
+    title: WOW.js
+    type: wow-atom-1.0.0/wow-js
+    attributes: null
+    id: wow-atom-1.0.0/wow-js-7163
+  -
+    id: headroom-1453
+    type: headroom
+    title: Headroom.js
+    inherit:
+      outline: default
+      atom: headroom-1453
+      include:
+        - attributes

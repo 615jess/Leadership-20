@@ -1,0 +1,1272 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 06:34:58
+* VERSION: 1.3.22
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 5.6.40                                |7.1.12
+OS__________________: Linux                                 |Darwin
+CREATED_____________: 2019-11-21 20:06:47
+WP VERSION__________: 5.2.4
+DUP VERSION_________: 1.3.22
+DB__________________: 10.0.38
+DB TABLES___________: 77
+DB ROWS_____________: 54,584
+DB FILE SIZE________: 17.89MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.1.12 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.1.12 mod_ssl/2.2.34 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0
+DOC ROOT____________: "/Applications/MAMP/htdocs/leadership20"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/leadership20/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "shellexec_unzip"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "20190517_leadershipinternational_453bb89c501659324639_20191121200647_archive.zip"
+SIZE________________: 114.16MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+
+START ZIP FILE EXTRACTION SHELLEXEC >>> 
+>>> Starting Shell-Exec Unzip:
+Command: unzip -o -qq '/Applications/MAMP/htdocs/leadership20/20190517_leadershipinternational_453bb89c501659324639_20191121200647_archive.zip' -d '/Applications/MAMP/htdocs/leadership20' 2>&1
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 06:35:35 - RUNTIME: 37.5384 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 06:36:04
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.6.38 -- Build Server: 10.0.38
+FILE SIZE:	dup-database__453bb89-21200647.sql (9.72MB)
+TIMEOUT:	5000
+MAXPACK:	4194304
+SQLMODE:	NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/Applications/MAMP/htdocs/leadership20/dup-installer/dup-installer-data__453bb89-21200647.sql]
+COLLATE FB:	Off
+
+NOTICE: This servers version [5.6.38] is less than the build version [10.0.38].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	685
+
+iso_countries: (243)
+lder_authnet_cancellation: (0)
+lder_authnet_payment: (57)
+lder_authnet_subscription: (1)
+lder_authnet_user_subscription: (99)
+lder_commentmeta: (0)
+lder_comments: (1)
+lder_duplicator_packages: (0)
+lder_gf_addon_feed: (4)
+lder_gf_addon_payment_callback: (0)
+lder_gf_addon_payment_transaction: (1553)
+lder_gf_draft_submissions: (0)
+lder_gf_entry: (415)
+lder_gf_entry_meta: (7406)
+lder_gf_entry_notes: (1740)
+lder_gf_form: (11)
+lder_gf_form_meta: (11)
+lder_gf_form_revisions: (0)
+lder_gf_form_view: (3872)
+lder_links: (0)
+lder_litespeed_img_optm: (0)
+lder_litespeed_optimizer: (0)
+lder_ngg_album: (0)
+lder_ngg_gallery: (0)
+lder_ngg_pictures: (0)
+lder_options: (416)
+lder_p2p: (4)
+lder_p2pmeta: (7)
+lder_participants_database: (1)
+lder_participants_database_fields: (16)
+lder_participants_database_groups: (4)
+lder_postmeta: (1311)
+lder_posts: (964)
+lder_relevanssi: (7549)
+lder_relevanssi_log: (0)
+lder_relevanssi_stopwords: (317)
+lder_rg_authorizenet: (2)
+lder_rg_authorizenet_transaction: (1)
+lder_rg_form: (7)
+lder_rg_form_meta: (7)
+lder_rg_form_view: (3397)
+lder_rg_incomplete_submissions: (0)
+lder_rg_lead: (280)
+lder_rg_lead_detail: (3505)
+lder_rg_lead_detail_long: (26)
+lder_rg_lead_meta: (1405)
+lder_rg_lead_notes: (936)
+lder_sm_sessions: (0)
+lder_term_relationships: (32)
+lder_term_taxonomy: (1)
+lder_termmeta: (0)
+lder_terms: (1)
+lder_usermeta: (1034)
+lder_users: (82)
+lder_wfBlockedIPLog: (0)
+lder_wfBlocks7: (0)
+lder_wfConfig: (279)
+lder_wfCrawlers: (6)
+lder_wfFileChanges: (0)
+lder_wfFileMods: (8366)
+lder_wfHits: (1726)
+lder_wfHoover: (0)
+lder_wfIssues: (9)
+lder_wfKnownFileList: (8366)
+lder_wfLiveTrafficHuman: (20)
+lder_wfLocs: (1)
+lder_wfLogins: (139)
+lder_wfNotifications: (284)
+lder_wfPendingIssues: (0)
+lder_wfReverseCache: (1)
+lder_wfSNIPCache: (0)
+lder_wfStatus: (957)
+lder_wfTrafficRates: (0)
+lder_wfls_2fa_secrets: (0)
+lder_wfls_settings: (19)
+lder_yoast_seo_links: (55)
+lder_yoast_seo_meta: (106)
+Removed '34' cache/transient rows
+
+INSERT DATA RUNTIME: 13.3340 sec.
+STEP-2 COMPLETE @ 06:36:17 - RUNTIME: 13.3797 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 06:36:42
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Leadership International"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home/leadersh/public_html/"
+path_new______________: "/Applications/MAMP/htdocs/leadership20/"
+siteurl_______________: "http://localhost:8888/leadership20"
+url_old_______________: "https://www.leadershipintl.org"
+url_new_______________: "http://localhost:8888/leadership20"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbhost________________: "localhost"
+dbuser________________: "root"
+dbname________________: "leadership20"
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_username___________: ""
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: true
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "iso_countries"___________________________________[ROWS:   243][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_authnet_cancellation"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lder_authnet_payment"____________________________[ROWS:    57][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_authnet_subscription"_______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_authnet_user_subscription"__________________[ROWS:    99][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_commentmeta"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lder_comments"___________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_duplicator_packages"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lder_gf_addon_feed"______________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_gf_addon_payment_callback"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lder_gf_addon_payment_transaction"_______________[ROWS:  1553][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_gf_draft_submissions"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lder_gf_entry"___________________________________[ROWS:   415][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_gf_entry_meta"______________________________[ROWS:  7406][PG:   3][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_gf_entry_notes"_____________________________[ROWS:  1740][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_gf_form"____________________________________[ROWS:    11][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_gf_form_meta"_______________________________[ROWS:    11][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_gf_form_revisions"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lder_gf_form_view"_______________________________[ROWS:  3872][PG:   2][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_links"______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lder_litespeed_img_optm"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lder_litespeed_optimizer"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lder_ngg_album"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lder_ngg_gallery"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lder_ngg_pictures"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lder_options"____________________________________[ROWS:   416][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_p2p"________________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_p2pmeta"____________________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_participants_database"______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_participants_database_fields"_______________[ROWS:    16][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_participants_database_groups"_______________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_postmeta"___________________________________[ROWS:  1311][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_posts"______________________________________[ROWS:   964][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_relevanssi"_________________________________[ROWS:  7549][PG:   3][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_relevanssi_log"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lder_relevanssi_stopwords"_______________________[ROWS:   317][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_rg_authorizenet"____________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_rg_authorizenet_transaction"________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_rg_form"____________________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_rg_form_meta"_______________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_rg_form_view"_______________________________[ROWS:  3397][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_rg_incomplete_submissions"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lder_rg_lead"____________________________________[ROWS:   280][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_rg_lead_detail"_____________________________[ROWS:  3505][PG:   2][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_rg_lead_detail_long"________________________[ROWS:    26][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_rg_lead_meta"_______________________________[ROWS:  1405][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_rg_lead_notes"______________________________[ROWS:   936][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_sm_sessions"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lder_term_relationships"_________________________[ROWS:    32][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_term_taxonomy"______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_termmeta"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lder_terms"______________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_usermeta"___________________________________[ROWS:  1034][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_users"______________________________________[ROWS:    82][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_wfBlockedIPLog"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lder_wfBlocks7"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lder_wfConfig"___________________________________[ROWS:   279][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_wfCrawlers"_________________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_wfFileChanges"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lder_wfFileMods"_________________________________[ROWS:  8366][PG:   3][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_wfHits"_____________________________________[ROWS:  1726][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_wfHoover"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lder_wfIssues"___________________________________[ROWS:     9][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_wfKnownFileList"____________________________[ROWS:  8366][PG:   3][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_wfLiveTrafficHuman"_________________________[ROWS:    20][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_wfLocs"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_wfLogins"___________________________________[ROWS:   139][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_wfNotifications"____________________________[ROWS:   284][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_wfPendingIssues"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lder_wfReverseCache"_____________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_wfSNIPCache"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lder_wfStatus"___________________________________[ROWS:   957][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_wfTrafficRates"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lder_wfls_2fa_secrets"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lder_wfls_settings"______________________________[ROWS:    19][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_yoast_seo_links"____________________________[ROWS:    55][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+
+EVALUATE TABLE: "lder_yoast_seo_meta"_____________________________[ROWS:   106][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/leadersh/public_html/" =====================> "/Applications/MAMP/htdocs/leadership20/"
+	SEARCH  2:"\/home\/leadersh\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/leadership20\/"
+	SEARCH  3:"%2Fhome%2Fleadersh%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20%2F"
+	SEARCH  4:"\home\leadersh\public_html" ======================> "/Applications/MAMP/htdocs/leadership20"
+	SEARCH  5:"\\home\\leadersh\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/leadership20"
+	SEARCH  6:"%5Chome%5Cleadersh%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fleadership20"
+	SEARCH  7:"//www.leadershipintl.org" ========================> "//localhost:8888/leadership20"
+	SEARCH  8:"\/\/www.leadershipintl.org" ======================> "\/\/localhost:8888\/leadership20"
+	SEARCH  9:"%2F%2Fwww.leadershipintl.org" ====================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 10:"//leadershipintl.org" ============================> "//localhost:8888/leadership20"
+	SEARCH 11:"\/\/leadershipintl.org" ==========================> "\/\/localhost:8888\/leadership20"
+	SEARCH 12:"%2F%2Fleadershipintl.org" ========================> "%2F%2Flocalhost%3A8888%2Fleadership20"
+	SEARCH 13:"https://localhost:8888/leadership20" =============> "http://localhost:8888/leadership20"
+	SEARCH 14:"https:\/\/localhost:8888\/leadership20" ==========> "http:\/\/localhost:8888\/leadership20"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fleadership20" ===> "http%3A%2F%2Flocalhost%3A8888%2Fleadership20"
+--------------------------------------
+SCANNED:	Tables:77 	|	 Rows:57052 	|	 Cells:462571 
+UPDATED:	Tables:10 	|	 Rows:3717 	|	 Cells:4356 
+ERRORS:		0 
+RUNTIME:	5.690200 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""leadership20""
+	UPDATE DB_USER ""root""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE WP_CACHE true
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache 'htaccess.orig' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Activated plugins (If they are activated) listed here will be deactivated: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 06:36:48 - RUNTIME: 5.8275 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================

@@ -1,0 +1,11 @@
+/* IE (all versions) */
+/* ----------------------------------------- */
+.post-thumb .overlay { display:none;}
+.post-thumb:hover .overlay { display:block;}
+.rotate-img { display:none!important;}
+.ie-fix { 
+	position:absolute;
+	display:block!important;
+	left:0px;
+	top:54px;
+}

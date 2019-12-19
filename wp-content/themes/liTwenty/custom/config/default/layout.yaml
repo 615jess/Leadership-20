@@ -1,0 +1,145 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1576273728
+layout:
+  /navigation/:
+    -
+      - system-messages-7972
+    -
+      - 'logo-8809 25'
+      - 'menu-6409 75'
+  /header/: {  }
+  /intro/: {  }
+  /features/: {  }
+  /utility/: {  }
+  /above/: {  }
+  /container-main/:
+    -
+      -
+        'aside 25':
+          -
+            - position-position-4734
+      -
+        'mainbar 50':
+          -
+            - system-content-1587
+      -
+        'sidebar 25':
+          -
+            - position-position-3949
+  /testimonials/: {  }
+  /expanded/: {  }
+  /footer/:
+    -
+      - 'position-widget-9947 22'
+      - 'position-widget-9676 22'
+      - 'position-widget-6149 23'
+      - 'custom-9051 33'
+    -
+      - branding-4525
+    -
+      - custom-5841
+    -
+      - 'copyright-1736 80'
+      - 'totop-8670 20'
+  /offcanvas/:
+    -
+      - mobile-menu-5697
+structure:
+  navigation:
+    type: section
+    attributes:
+      boxed: ''
+  header:
+    attributes:
+      boxed: '2'
+      class: ''
+      variations: 'nomarginall nopaddingall'
+  intro:
+    type: section
+    attributes:
+      boxed: ''
+  features:
+    type: section
+    attributes:
+      boxed: ''
+  utility:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+  above:
+    type: section
+    attributes:
+      boxed: ''
+  aside:
+    attributes:
+      class: ''
+    block:
+      fixed: '1'
+  mainbar:
+    type: section
+    subtype: main
+  sidebar:
+    type: section
+    subtype: aside
+    attributes:
+      class: ''
+    block:
+      fixed: '1'
+  container-main:
+    attributes:
+      boxed: ''
+  testimonials:
+    type: section
+    attributes:
+      boxed: ''
+  expanded:
+    type: section
+    attributes:
+      boxed: ''
+  footer:
+    attributes:
+      boxed: ''
+  offcanvas:
+    attributes:
+      boxed: ''
+content:
+  logo-8809:
+    title: 'Logo / Image'
+    attributes:
+      class: g-logo
+    block:
+      variations: nopaddingall
+  position-position-4734:
+    title: Aside
+    attributes:
+      key: aside
+  position-position-3949:
+    title: Sidebar
+    attributes:
+      key: sidebar
+  position-widget-9947:
+    attributes:
+      widget: '{"type":"widget","widget":"nav_menu","title":"Navigation Menu","options":{"widget":{"nav_menu":6}}}'
+  position-widget-9676:
+    attributes:
+      widget: '{"type":"widget","widget":"nav_menu","title":"Navigation Menu","options":{"widget":{"nav_menu":7}}}'
+  position-widget-6149:
+    attributes:
+      widget: '{"type":"widget","widget":"nav_menu","title":"Navigation Menu","options":{"widget":{"nav_menu":8}}}'
+  custom-9051:
+    title: 'Custom HTML'
+    attributes:
+      html: "<div class=\"g-grid\">\n    <div class=\"g-block size-100\">\n        <div class=\"center\"><a href=\"#\"><img src=\"gantry-media://header/logo.png\" /></a></div>\n        <div class=\"center\"><a title=\"Click to call (on smartphone)\" href=\"tel:6156042961\">615 604 2961</a>  <a title=\"Send an email\" href=\"mailto:info@leadershipintl.org\"> info@leadershipintl.org</a>\n        </div>\n<div class=\"g-grid\">\n    <!-- Column1 - Text -->\n    <div class=\"g-block size-50 address\">\n        <p>United States</p>\n        <p>P.O. Box 637</p>\n        <p>Brentwood, TN 37024</p>\n    </div>\n    <!--Column2 - Image -->\n    <div class=\"g-block size-50 address\">\n        <p>Africa</p>\n        <p>P.O. Box 1272-00621</p>\n        <p>Nairobi, Kenya</p>\n    </div>\n\n    </div>\n    </div>"
+  branding-4525:
+    block:
+      variations: center
+  custom-5841:
+    title: 'Custom HTML'
+    attributes:
+      html: '<hr />'
+  totop-8670:
+    title: 'To Top'

@@ -1,0 +1,13 @@
+meta: {  }
+head_bottom: ''
+atoms:
+  -
+    id: headroom-1453
+    type: headroom
+    title: Headroom.js
+    attributes:
+      enabled: '1'
+      cssselector: '#g-navigation'
+      offset: '400'
+      animation: slide
+      mobile: disable

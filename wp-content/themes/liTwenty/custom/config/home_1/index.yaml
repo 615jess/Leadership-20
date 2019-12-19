@@ -1,0 +1,83 @@
+name: home_1
+timestamp: 1576793835
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1576273728
+positions:
+  aside: Aside
+sections:
+  navigation: Navigation
+  intro: Intro
+  features: Features
+  utility: Utility
+  above: Above
+  testimonials: Testimonials
+  expanded: Expanded
+  header: Header
+  aside: Aside
+  sidebar: Sidebar
+  mainbar: Mainbar
+  footer: Footer
+  offcanvas: Offcanvas
+particles:
+  owlcarousel:
+    owlcarousel-6479: 'Owl Carousel'
+    owlcarousel-8306: 'Owl Carousel'
+  custom:
+    custom-2922: 'Custom HTML'
+    custom-5996: 'Custom HTML'
+    custom-1235: 'Custom HTML'
+    custom-9712: 'Custom HTML'
+    custom-5850: 'Custom HTML'
+    custom-4052: 'Custom HTML'
+    custom-8362: 'Custom HTML'
+  widget:
+    position-widget-4697: Widget
+    position-widget-9986: Widget
+    position-widget-4012: Widget
+    position-widget-3737: Widget
+    position-widget-5534: Widget
+  messages:
+    system-messages-9605: 'System Messages'
+  logo:
+    logo-3944: 'Logo / Image'
+  menu:
+    menu-4298: Menu
+  position:
+    position-position-1455: Aside
+  content:
+    system-content-5805: 'Page Content'
+  branding:
+    branding-9171: Branding
+  copyright:
+    copyright-1372: Copyright
+  totop:
+    totop-6625: 'To Top'
+  mobile-menu:
+    mobile-menu-1564: Mobile-menu
+inherit:
+  default:
+    navigation: navigation
+    intro: intro
+    utility: utility
+    above: above
+    aside: aside
+    mainbar: mainbar
+    footer: footer
+    offcanvas: offcanvas
+    system-messages-9605: system-messages-7972
+    logo-3944: logo-8809
+    menu-4298: menu-6409
+    position-position-1455: position-position-4734
+    system-content-5805: system-content-1587
+    position-widget-4012: position-widget-9947
+    position-widget-3737: position-widget-9676
+    position-widget-5534: position-widget-6149
+    custom-4052: custom-9051
+    branding-9171: branding-4525
+    custom-8362: custom-5841
+    copyright-1372: copyright-1736
+    totop-6625: totop-8670
+    mobile-menu-1564: mobile-menu-5697

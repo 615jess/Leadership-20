@@ -1,0 +1,25 @@
+enabled: '1'
+css:
+  class: ''
+title: ''
+target: _blank
+display: both
+items:
+  -
+    icon: 'fa fa-twitter fa-fw'
+    text: ''
+    title: ''
+    link: 'http://www.twitter.com/leadershipintl'
+    name: Twitter
+  -
+    icon: 'fa fa-facebook fa-fw'
+    text: ''
+    title: ''
+    link: 'http://www.facebook.com/leadershipintl'
+    name: Facebook
+  -
+    icon: 'fa fa-instagram fa-fw'
+    text: ''
+    title: ''
+    link: 'https://instagram.com/leadershipintl'
+    name: Instagram

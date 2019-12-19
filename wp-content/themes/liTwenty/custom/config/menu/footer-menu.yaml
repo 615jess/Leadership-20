@@ -1,0 +1,60 @@
+ordering:
+  welcome-to-leadership-international:
+    -
+      about-us:
+        our-mission: ''
+        leadership-team: ''
+        the-need: ''
+        testimonials: ''
+        partners: ''
+    -
+      where-we-work:
+        locations: ''
+    -
+      get-involved: ''
+      training: ''
+      our-blog: ''
+      leading-well: ''
+      donate: ''
+items:
+  welcome-to-leadership-international:
+    attributes: {  }
+    dropdown_dir: right
+    dropdown_hide: '1'
+    width: auto
+    columns:
+      - 33.3
+      - 33.3
+      - 33.3
+  welcome-to-leadership-international/about-us:
+    attributes: {  }
+    dropdown_dir: right
+    dropdown_hide: '1'
+    width: auto
+  welcome-to-leadership-international/about-us/our-mission:
+    object_id: 499
+  welcome-to-leadership-international/about-us/leadership-team:
+    object_id: 27
+  welcome-to-leadership-international/about-us/the-need:
+    object_id: 511
+  welcome-to-leadership-international/about-us/testimonials:
+    object_id: 524
+  welcome-to-leadership-international/about-us/partners:
+    object_id: 548
+  welcome-to-leadership-international/where-we-work:
+    attributes: {  }
+    dropdown_dir: center
+    dropdown_hide: '0'
+    width: auto
+  welcome-to-leadership-international/where-we-work/locations:
+    object_id: 83
+  welcome-to-leadership-international/get-involved:
+    object_id: 537
+  welcome-to-leadership-international/training:
+    object_id: 102
+  welcome-to-leadership-international/our-blog:
+    object_id: 55
+  welcome-to-leadership-international/leading-well:
+    object_id: 85
+  welcome-to-leadership-international/donate:
+    object_id: 438

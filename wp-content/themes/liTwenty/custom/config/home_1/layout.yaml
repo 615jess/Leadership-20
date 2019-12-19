@@ -1,0 +1,211 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1576273728
+layout:
+  navigation: {  }
+  /header/:
+    -
+      - owlcarousel-6479
+  intro: {  }
+  /features/:
+    -
+      - 'custom-2922 33.3'
+      - 'custom-5996 33.3'
+      - 'custom-1235 33.3'
+    -
+      - custom-9712
+  utility: {  }
+  above: {  }
+  /container-main/:
+    -
+      -
+        'aside 25': {  }
+      -
+        'mainbar 50': {  }
+      -
+        'sidebar 25': {  }
+  /testimonials/:
+    -
+      - owlcarousel-8306
+  /expanded/:
+    -
+      - custom-5850
+    -
+      - 'position-widget-4697 50'
+      - 'position-widget-9986 50'
+  footer: {  }
+  offcanvas: {  }
+structure:
+  navigation:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  header:
+    attributes:
+      boxed: '2'
+      class: ''
+      variations: ''
+  intro:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  features:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+      variations: ''
+  utility:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  above:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  aside:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+    block:
+      fixed: '1'
+  mainbar:
+    type: section
+    subtype: main
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  sidebar:
+    type: section
+    subtype: aside
+    attributes:
+      class: ''
+      variations: ''
+    block:
+      fixed: '1'
+  container-main:
+    attributes:
+      boxed: '2'
+      class: ''
+      extra: {  }
+  testimonials:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+      variations: ''
+  expanded:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+      variations: ''
+  footer:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  offcanvas:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+content:
+  owlcarousel-6479:
+    title: 'Owl Carousel'
+    attributes:
+      items:
+        -
+          class: ''
+          image: 'gantry-media://2014/01/Silent-Images-12337-Version-2-1024x682.jpg'
+          title: 'Equipping Leaders <span>for</span> Mission'
+          desc: ''
+          link: ''
+          linktext: ''
+          buttonclass: button-outline
+          disable: '0'
+          name: Mission
+    block:
+      variations: nomarginall
+  custom-2922:
+    title: 'Custom HTML'
+    attributes:
+      html: '<h1>13</h1>Countries'
+  custom-5996:
+    title: 'Custom HTML'
+    attributes:
+      html: '<h1>97</h1>Communities Transformed'
+  custom-1235:
+    title: 'Custom HTML'
+    attributes:
+      html: '<h1>2k</h1>Leaders Trained This Year'
+  custom-9712:
+    title: 'Custom HTML'
+    attributes:
+      html: "<div id=\"countr\"><span class=\"count\">13</span>Churches Planted</div>\n<div id=\"countr\"><span class=\"count\">97</span>Pastors Planted</div>\n<div id=\"countr\"><span class=\"count\">2000</span>Trained</div>"
+  owlcarousel-8306:
+    title: 'Owl Carousel'
+    attributes:
+      title: Title
+      imageOverlay: disable
+      items:
+        -
+          class: ''
+          image: ''
+          title: 'Bishop Moses Machasi Ndiema'
+          desc: '“I lead more than 10 congregations with a population of 400 members. When I joined [Leadership International] I was looking for skills to help me in leading the flock which God put under my care. This course did not only sharpen me for the church work but it transformed me as person and revolutionizing my understanding of leadership. I’m practicing this at home with my family. I now see myself as a servant but not a tyrant boss. My prayer is to take the transformation to the people  I’m serving with so as to transform them.”'
+          link: testimonials
+          linktext: ''
+          buttonclass: ''
+          disable: '0'
+          name: Moses
+        -
+          class: ''
+          image: ''
+          title: 'Pastor Kenneth Akomea Koah'
+          desc: '“This training has really helped me a lot especially during training of teachers for children’s ministry, Pastor’s seminars and conferences. I am able to answer the questions most pastors ask with ease. It was also helped me to teach with understanding, confidence and clarity. The knowledge acquired here in addition to my qualification in Christian ministry has helped me to teach children’s ministry in some Bibles School s in Sunyani and Techiman.”'
+          link: ''
+          linktext: ''
+          buttonclass: ''
+          disable: '0'
+          name: 'Pastor Kenneth Akomea Koah'
+  custom-5850:
+    title: 'Custom HTML'
+    attributes:
+      html: '<h1>Support Our Mission</h1>'
+  position-widget-4697:
+    attributes:
+      widget: '{"type":"widget","widget":"gform_widget","title":"Form","options":{"widget":{"title":"Donate Now","form_id":"13","showtitle":"0","ajax":"0","disable_scripts":"0","showdescription":"0","tabindex":"1"}}}'
+      key: widget
+  position-widget-9986:
+    attributes:
+      widget: '{"type":"widget","widget":"emma-widget","title":"Emma For WordPress","options":{"widget":{"title":"Join Our Mailing List"}}}'
+      key: widget

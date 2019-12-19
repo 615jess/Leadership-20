@@ -1,0 +1,203 @@
+@import url("//hello.myfonts.net/count/29c533");
+
+@font-face {font-family: 'Fugu';src: url('webfonts/29C533_0_0.eot');src: url('webfonts/29C533_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/29C533_0_0.woff') format('woff'),url('webfonts/29C533_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'MaduraiSlab-NorBol';src: url('webfonts/29C533_1_0.eot');src: url('webfonts/29C533_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/29C533_1_0.woff') format('woff'),url('webfonts/29C533_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'MaduraiSlab-NorMed';src: url('webfonts/29C533_2_0.eot');src: url('webfonts/29C533_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/29C533_2_0.woff') format('woff'),url('webfonts/29C533_2_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Novecentosanswide-Book';src: url('webfonts/29C533_3_0.eot');src: url('webfonts/29C533_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/29C533_3_0.woff') format('woff'),url('webfonts/29C533_3_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Novecentosanswide-Medium';src: url('webfonts/29C533_4_0.eot');src: url('webfonts/29C533_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/29C533_4_0.woff') format('woff'),url('webfonts/29C533_4_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Novecentosanswide-Normal';src: url('webfonts/29C533_5_0.eot');src: url('webfonts/29C533_5_0.eot?#iefix') format('embedded-opentype'),url('webfonts/29C533_5_0.woff') format('woff'),url('webfonts/29C533_5_0.ttf') format('truetype');}
+
+
+html .mceContentBody {
+    color: #3A3016;
+    font-family:  'Arial',Helvetica,sans-serif;
+    font-size: 16px;
+}
+    .LI-Blue {
+        color: #789EBE;
+    }
+    .LI-Orange {
+        color: #BD722B;
+    }
+    .LI-Fugu {
+        font-family: 'Fugu';
+    }
+    .LI-MaduraiSlabNormalBold {
+        font-family:  'MaduraiSlab-NorBol';
+    }
+    .LI-NovecentoSansWideBook {
+        font-family: 'Novecentosanswide-Book';
+    }
+    .LI-NovecentoSansWideMedium {
+        font-family: 'Novecentosanswide-Medium';
+    }
+    .LI-NovecentoSansWideNormal {
+        font-family: 'Novecentosanswide-Normal';
+    }
+    
+p {
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+a {
+    color: #86ADCC;
+    text-decoration:none;
+}
+a:hover {
+    text-decoration:underline;
+}
+h2 {
+    font-size: 24px;
+    color: #789EBE;
+    margin:0 0 20px;
+    line-height:normal;
+}
+h3 {
+    font-size: 22px;
+    color: #789EBE;
+    margin:0 0 20px;
+    line-height:normal;
+}
+h4 {
+    font-size: 20px;
+    color: #789EBE;
+    margin:0 0 20px;
+    line-height:normal;
+}
+
+strong {
+    font-weight: bold;
+}
+
+cite, em, i {
+    font-style: italic;
+}
+
+ul, ol {
+    padding:0;
+    margin: 0 0 15px 20px;    
+}
+
+    ul ul , ol ol {
+        padding-bottom: 0;
+        margin: 0 0 0 15px;
+    }
+
+ul {
+    list-style-type:disc;
+}
+
+ol {
+    list-style-type:decimal;
+}
+
+ul li, ol li {
+    margin: 0 0 5px 0;
+}
+blockquote {
+    margin:0 auto;
+    padding: 10px 18px;
+    text-align:justify;
+    font-family:"Fugu";
+    font-size:34px;
+}
+sup, sub {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+sup {
+    top: -0.5em;
+}
+sub {
+    bottom: -0.25em;
+}
+
+/** BEGIN: Wordpress Default Alignment **/
+.alignleft {
+    display: inline;
+    float: left;
+    margin: 12px 24px 12px 0;
+    margin: 0.857142857rem 1.714285714rem 0.857142857rem 0;
+}
+.alignright {
+    display: inline;
+    float: right;
+    margin: 12px 0 12px 24px;
+    margin: 0.857142857rem 0 0.857142857rem 1.714285714rem;
+}
+.aligncenter {
+    clear: both;
+    display: block;
+    margin-top: 12px;
+    margin-top: 0.857142857rem;
+    margin-bottom: 12px;
+    margin-bottom: 0.857142857rem;
+    margin-left:auto;
+    margin-right: auto;
+}
+/** END: Wordpress Default Alignment **/
+
+
+/** BEGIN: Wordpress Default Image Styling **/
+img,
+.editor-attachment {
+    border: 0;
+    max-width: 100%;
+}
+img.size-full {
+    width: auto/9; /* Prevent stretching of full-size images in IE8 */
+}
+img[class*="wp-image-"] {
+    height: auto;
+    max-width: 100%;
+}
+img[class*="align"],
+img[class*="wp-image-"],
+img[class*="attachment-"] {
+    height: auto; /* Make sure images with WordPress-added height and width attributes are scaled correctly */
+}
+img.mceWPnextpage {
+    border-radius: 0;
+    box-shadow: none;
+}
+img.wp-smiley {
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+}
+.wp-caption {
+    background: transparent;
+    border: none;
+    margin: 0;
+    padding: 4px;
+    text-align: left;
+}
+.wp-caption-dt {
+    margin: 0;
+}
+.wp-caption .wp-caption-text,
+.wp-caption-dd {
+    color: #757575;
+    font-style: italic;
+    font-size: 12px;
+    font-size: 0.857142857rem;
+    line-height: 2;
+    margin: 0 0 24px;
+    margin: 0 0 1.71429rem;
+}
+/** BEGIN: Wordpress Default Image Styling **/
