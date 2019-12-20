@@ -20,18 +20,18 @@
   src: url('../fonts/29C533_2_0.eot');
   src: url('../webfonts/29C533_2_0.eot#iefix') format('embedded-opentype'), url('../fonts/29C533_2_0.woff') format('woff'), url('../fonts/29C533_2_0.ttf') format('truetype');
 }
-/* line 12, wp-content/themes/liTwenty/custom/scss/custom.scss */
+/* line 16, wp-content/themes/liTwenty/custom/scss/custom.scss */
 body {
   background-color: blue;
 }
-/* line 18, wp-content/themes/liTwenty/custom/scss/custom.scss */
+/* line 24, wp-content/themes/liTwenty/custom/scss/custom.scss */
 .boxed {
   width: 75rem;
   margin-right: auto;
   margin-left: auto;
 }
 @media only all and (min-width: 60rem) and (max-width: 74.938rem) {
-  /* line 24, wp-content/themes/liTwenty/custom/scss/custom.scss */
+  /* line 31, wp-content/themes/liTwenty/custom/scss/custom.scss */
   .boxed {
     width: 60rem;
     margin-right: auto;
@@ -39,7 +39,7 @@ body {
   }
 }
 @media only all and (min-width: 48rem) and (max-width: 59.938rem) {
-  /* line 31, wp-content/themes/liTwenty/custom/scss/custom.scss */
+  /* line 38, wp-content/themes/liTwenty/custom/scss/custom.scss */
   .boxed {
     width: 48rem;
     margin-right: auto;
@@ -47,7 +47,7 @@ body {
   }
 }
 @media only all and (min-width: 30.062rem) and (max-width: 47.938rem) {
-  /* line 38, wp-content/themes/liTwenty/custom/scss/custom.scss */
+  /* line 45, wp-content/themes/liTwenty/custom/scss/custom.scss */
   .boxed {
     width: 30rem;
     margin-right: auto;
@@ -55,54 +55,64 @@ body {
   }
 }
 @media only all and (max-width: 30rem) {
-  /* line 45, wp-content/themes/liTwenty/custom/scss/custom.scss */
+  /* line 52, wp-content/themes/liTwenty/custom/scss/custom.scss */
   .boxed {
     width: 100%;
   }
 }
 /* @group NAVIGATION */
-/* line 57, wp-content/themes/liTwenty/custom/scss/custom.scss */
+/* line 64, wp-content/themes/liTwenty/custom/scss/custom.scss */
 section#g-navigation.animated.headroom--top.headroom--not-bottom {
   max-height: 90px;
 }
-/* line 61, wp-content/themes/liTwenty/custom/scss/custom.scss */
+/* line 68, wp-content/themes/liTwenty/custom/scss/custom.scss */
 div#g-page-surround div.g-fixed-container {
   margin-bottom: -60px;
 }
-/* line 65, wp-content/themes/liTwenty/custom/scss/custom.scss */
+/* line 72, wp-content/themes/liTwenty/custom/scss/custom.scss */
 div#logo-3944-particle.g-content.g-particle a.g-logo img {
   max-height: 140px;
 }
-/* line 68, wp-content/themes/liTwenty/custom/scss/custom.scss */
+/* line 76, wp-content/themes/liTwenty/custom/scss/custom.scss */
 .g-menu-item-container .g-menu-item-title {
-  font: 1.6em "Raleway", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  font: 1.3em "Raleway", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
 }
-/* line 71, wp-content/themes/liTwenty/custom/scss/custom.scss */
+/* line 80, wp-content/themes/liTwenty/custom/scss/custom.scss */
 nav.g-main-nav ul.g-toplevel li.button.g-menu-item.g-menu-item-1250.g-menu-item-type-post_type.g-standard.menu-item.menu-item-1250.menu-item-object-page.menu-item-type-post_type {
-  padding: 4px 18px;
+  padding: 6px 18px 2px;
+}
+/* line 84, wp-content/themes/liTwenty/custom/scss/custom.scss */
+nav.g-main-nav ul.g-toplevel li.g-menu-item.button .g-menu-item-title {
+  font: 1.4em/0.25em 'MaduraiSlab-NorBol', "Oswald Regular", Oswald, sans-serif;
+}
+/* line 88, wp-content/themes/liTwenty/custom/scss/custom.scss */
+nav.g-main-nav ul.g-toplevel li.g-menu-item.button {
+  padding: 0;
+  margin: 0;
+  background-color: #ddae5a;
 }
 /* @end */
 /* @group HOME HERO */
-/* line 79, wp-content/themes/liTwenty/custom/scss/custom.scss */
+/* line 97, wp-content/themes/liTwenty/custom/scss/custom.scss */
 div#g-owlcarousel-owlcarousel-6479 h1.g-owlcarousel-item-title {
   font: 3em 'MaduraiSlab-NorBol', "Oswald Regular", Oswald, sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-/* line 86, wp-content/themes/liTwenty/custom/scss/custom.scss */
+/* line 103, wp-content/themes/liTwenty/custom/scss/custom.scss */
 div#g-owlcarousel-owlcarousel-6479 h1.g-owlcarousel-item-title span {
   font-family: 'Raleway', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
   text-transform: lowercase;
   font-weight: 100;
 }
-/* line 92, wp-content/themes/liTwenty/custom/scss/custom.scss */
+/* line 109, wp-content/themes/liTwenty/custom/scss/custom.scss */
 header#g-header {
   top: -100px;
   position: relative;
   margin-bottom: -100px;
 }
 /* @end */
-/* line 105, wp-content/themes/liTwenty/custom/scss/custom.scss */
+/* line 117, wp-content/themes/liTwenty/custom/scss/custom.scss */
 article#post-24.post-type-page.post-24.page.type-page.status-publish.hentry section.entry-content figure.wp-block-embed-vimeo {
   text-align: center;
   margin-left: 0;
@@ -110,14 +120,35 @@ article#post-24.post-type-page.post-24.page.type-page.status-publish.hentry sect
   padding: 55px 0;
   background-color: silver;
 }
-/* line 115, wp-content/themes/liTwenty/custom/scss/custom.scss */
+/* line 125, wp-content/themes/liTwenty/custom/scss/custom.scss */
 div#g-owlcarousel-owlcarousel-8306 div.owl-item.active div.g-owlcarousel-item .g-owlcarousel-item-wrapper {
   height: auto;
   padding: 22px;
   min-height: 500px;
 }
-/* line 129, wp-content/themes/liTwenty/custom/scss/custom.scss */
+/* line 131, wp-content/themes/liTwenty/custom/scss/custom.scss */
 footer#g-footer div.g-container div.g-content a {
   color: #e8f4fd;
+}
+/* line 137, wp-content/themes/liTwenty/custom/scss/custom.scss */
+#g-expanded {
+  background: url('//localhost:8888/leadership20/wp-content/themes/liTwenty/custom/images/Silent-2440.jpg') center top no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 10;
+}
+/* line 143, wp-content/themes/liTwenty/custom/scss/custom.scss */
+#g-expanded:before {
+  background-color: #e5cc90;
+  background-image: -webkit-linear-gradient(22deg, #e5cc90 0%, #074e87 100%);
+  background-image: linear-gradient(22deg, #e5cc90 0%, #074e87 100%);
+  opacity: 0.8;
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
 }
 /*# sourceMappingURL=custom__error.css.map */

@@ -2,6 +2,24 @@ meta: {  }
 head_bottom: ''
 atoms:
   -
+    title: 'Google Analytics'
+    type: analytics
+    attributes:
+      enabled: true
+      ua:
+        anonym: false
+        ssl: false
+        debug: false
+    id: analytics-9803
+  -
+    id: wow-js-4106
+    type: wow-js
+    title: WOW.js
+    attributes:
+      enabled: '1'
+      offset: '200'
+      mobile: 'true'
+  -
     id: headroom-1453
     type: headroom
     title: Headroom.js
@@ -11,3 +29,8 @@ atoms:
       offset: '400'
       animation: slide
       mobile: disable
+  -
+    title: WOW.js
+    type: wow-atom-1.0.0/wow-js
+    attributes: null
+    id: wow-atom-1.0.0/wow-js-7964

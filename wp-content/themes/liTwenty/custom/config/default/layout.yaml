@@ -113,6 +113,9 @@ content:
       class: g-logo
     block:
       variations: nopaddingall
+  menu-6409:
+    block:
+      variations: align-right
   position-position-4734:
     title: Aside
     attributes:
@@ -124,12 +127,15 @@ content:
   position-widget-9947:
     attributes:
       widget: '{"type":"widget","widget":"nav_menu","title":"Navigation Menu","options":{"widget":{"nav_menu":6}}}'
+      key: widget
   position-widget-9676:
     attributes:
       widget: '{"type":"widget","widget":"nav_menu","title":"Navigation Menu","options":{"widget":{"nav_menu":7}}}'
+      key: widget
   position-widget-6149:
     attributes:
       widget: '{"type":"widget","widget":"nav_menu","title":"Navigation Menu","options":{"widget":{"nav_menu":8}}}'
+      key: widget
   custom-9051:
     title: 'Custom HTML'
     attributes:

@@ -9,13 +9,6 @@ layout:
     -
       - owlcarousel-6479
   intro: {  }
-  /features/:
-    -
-      - 'custom-2922 33.3'
-      - 'custom-5996 33.3'
-      - 'custom-1235 33.3'
-    -
-      - custom-9712
   utility: {  }
   above: {  }
   /container-main/:
@@ -29,6 +22,11 @@ layout:
   /testimonials/:
     -
       - owlcarousel-8306
+  /features/:
+    -
+      - 'custom-2922 33.3'
+      - 'custom-5996 33.3'
+      - 'custom-1235 33.3'
   /expanded/:
     -
       - custom-5850
@@ -59,12 +57,6 @@ structure:
         - attributes
         - block
         - children
-  features:
-    type: section
-    attributes:
-      boxed: ''
-      class: ''
-      variations: ''
   utility:
     type: section
     inherit:
@@ -118,11 +110,17 @@ structure:
       boxed: ''
       class: ''
       variations: ''
-  expanded:
+  features:
     type: section
     attributes:
       boxed: ''
       class: ''
+      variations: ''
+  expanded:
+    type: section
+    attributes:
+      boxed: ''
+      class: 'wow fadeInUp'
       variations: ''
   footer:
     inherit:
@@ -155,22 +153,6 @@ content:
           name: Mission
     block:
       variations: nomarginall
-  custom-2922:
-    title: 'Custom HTML'
-    attributes:
-      html: '<h1>13</h1>Countries'
-  custom-5996:
-    title: 'Custom HTML'
-    attributes:
-      html: '<h1>97</h1>Communities Transformed'
-  custom-1235:
-    title: 'Custom HTML'
-    attributes:
-      html: '<h1>2k</h1>Leaders Trained This Year'
-  custom-9712:
-    title: 'Custom HTML'
-    attributes:
-      html: "<div id=\"countr\"><span class=\"count\">13</span>Churches Planted</div>\n<div id=\"countr\"><span class=\"count\">97</span>Pastors Planted</div>\n<div id=\"countr\"><span class=\"count\">2000</span>Trained</div>"
   owlcarousel-8306:
     title: 'Owl Carousel'
     attributes:
@@ -197,6 +179,25 @@ content:
           buttonclass: ''
           disable: '0'
           name: 'Pastor Kenneth Akomea Koah'
+  custom-2922:
+    title: 'Custom HTML'
+    attributes:
+      html: "<img src=\"gantry-media://header/13licounter.gif\" />\n<h3>Countries</h3>"
+      twig: '1'
+    block:
+      class: 'wow bounceInLeft'
+  custom-5996:
+    title: 'Custom HTML'
+    attributes:
+      html: "<img src=\"gantry-media://header/93licounter.gif\" />\n<h3>Communities Transformed</h3>"
+    block:
+      class: 'wow zoomInUp'
+  custom-1235:
+    title: 'Custom HTML'
+    attributes:
+      html: "<img src=\"gantry-media://header/2klicounter.gif\" />\n<h3>Leaders Trained This Year</h3>"
+    block:
+      class: 'wow bounceInRight'
   custom-5850:
     title: 'Custom HTML'
     attributes:

@@ -2,4 +2,7 @@ preset: preset1
 testimonials:
   background: '#000000'
   background-image: 'gantry-media://2016/01/leadership_vid.jpg'
-  background-overlay: disabled
+  background-overlay: enabled
+expanded:
+  background-image: 'gantry-media://2014/01/Silent-Images-12300-Version-2.jpg'
+  background-overlay: enabled

@@ -38,6 +38,8 @@ testimonials:
   text-color: '#eceeef'
 expanded:
   background: '#ffffff'
+  background-image: ''
+  background-overlay: disabled
   text-color: '#393a3d'
 footer:
   background: '#84aed1'

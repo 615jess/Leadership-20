@@ -1,50 +1,57 @@
 /* @override 
 	http://localhost:8888/leadership20/wp-content/themes/liTwenty/custom/css-compiled/custom_home_1.css?* */
 
-@font-face {font-family: 'MaduraiSlab-NorBol';src: url('gantry-theme://fonts/29C533_1_0.eot');src: url('gantry-theme://fonts/29C533_1_0.eot?#iefix') format('embedded-opentype'),url('gantry-theme://fonts/29C533_1_0.woff') format('woff'),url('gantry-theme://fonts/29C533_1_0.ttf') format('truetype');}
- 
-  
-@font-face {font-family: 'MaduraiSlab-NorMed';src: url('../fonts/29C533_2_0.eot');src: url('../webfonts/29C533_2_0.eot?#iefix') format('embedded-opentype'),url('../fonts/29C533_2_0.woff') format('woff'),url('../fonts/29C533_2_0.ttf') format('truetype');}
+@font-face {
+font-family: 'MaduraiSlab-NorBol';
+src: url('gantry-theme://fonts/29C533_1_0.eot');
+src: url('gantry-theme://fonts/29C533_1_0.eot?#iefix') format('embedded-opentype'),url('gantry-theme://fonts/29C533_1_0.woff') format('woff'),url('gantry-theme://fonts/29C533_1_0.ttf') format('truetype');
+}
 
+@font-face {
+font-family: 'MaduraiSlab-NorMed';
+src: url('../fonts/29C533_2_0.eot');
+src: url('../webfonts/29C533_2_0.eot?#iefix') format('embedded-opentype'),url('../fonts/29C533_2_0.woff') format('woff'),url('../fonts/29C533_2_0.ttf') format('truetype');
+}
 
-
-
-body {background-color: blue;}
+body {
+	background-color: blue;
+}
 
 
 
 
 // WORDPRESS Adjustment to make blocks "Boxed" in flushed container
 .boxed {
-  width: 75rem;
-  margin-right: auto;
+	width: 75rem;
+	margin-right: auto;
 	margin-left: auto;
 }
+
 @media only all and (min-width: 60rem) and (max-width: 74.938rem) {
-  .boxed {
-    width: 60rem;
-    margin-right: auto;
-    	margin-left: auto;
-  }
+	.boxed {
+		width: 60rem;
+		margin-right: auto;
+		margin-left: auto;
+	}
 }
-@media only all and (min-width: 48rem) and (max-width: 59.938rem) {
-  .boxed {
-    width: 48rem;
-    margin-right: auto;
-    	margin-left: auto;
-  }
+	@media only all and (min-width: 48rem) and (max-width: 59.938rem) {
+	.boxed {
+		width: 48rem;
+		margin-right: auto;
+		margin-left: auto;
+	}
 }
-@media only all and (min-width: 30.062rem) and (max-width: 47.938rem) {
-  .boxed {
-    width: 30rem;
-    margin-right: auto;
-    	margin-left: auto;
-  }
+	@media only all and (min-width: 30.062rem) and (max-width: 47.938rem) {
+	.boxed {
+		width: 30rem;
+		margin-right: auto;
+		margin-left: auto;
+	}
 }
-@media only all and (max-width: 30rem) {
-  .boxed {
-    width: 100%;
-  }
+	@media only all and (max-width: 30rem) {
+	.boxed {
+		width: 100%;
+	}
 }
 
 
@@ -63,69 +70,107 @@ div#g-page-surround div.g-fixed-container {
 }
 
 div#logo-3944-particle.g-content.g-particle a.g-logo img {
-	max-height: 140px;}
-	
- .g-menu-item-container  .g-menu-item-title {
-	font: 1.6em "Raleway", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
-}	
+	max-height: 140px;
+}
+
+.g-menu-item-container  .g-menu-item-title {
+	font: 1.3em "Raleway", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+}
+
 nav.g-main-nav ul.g-toplevel li.button.g-menu-item.g-menu-item-1250.g-menu-item-type-post_type.g-standard.menu-item.menu-item-1250.menu-item-object-page.menu-item-type-post_type {
-	padding: 4px 18px;
+	padding: 6px 18px 2px;
+}
+
+nav.g-main-nav ul.g-toplevel li.g-menu-item.button .g-menu-item-title {
+	font: 1.4em/.25em 'MaduraiSlab-NorBol', "Oswald Regular", Oswald, sans-serif;
+}
+
+nav.g-main-nav ul.g-toplevel li.g-menu-item.button {
+	padding: 0;
+	margin: 0;
+	background-color: #ddae5a;
+}
+/* @end */
+
+/* @group HOME HERO */
+
+div#g-owlcarousel-owlcarousel-6479 h1.g-owlcarousel-item-title {
+	font: 3em 'MaduraiSlab-NorBol', "Oswald Regular", Oswald, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+div#g-owlcarousel-owlcarousel-6479 h1.g-owlcarousel-item-title span {
+	font-family: 'Raleway', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-transform: lowercase;
+	font-weight: 100;
+}
+
+header#g-header {
+	top: -100px;
+	position: relative;
+	margin-bottom: -100px;
+}
+
+.g-owlcarousel.has-color-overlay .owl-stage > .owl-item:nth-child(odd) .g-owlcarousel-item-img:after {
+
+    background-image: -webkit-linear-gradient(68deg, #e5cc90 7.8%, #035da5 79.5%);
+	background-image: linear-gradient(22deg, #e5cc90 7.8%, #035da5 79.5%);
+opacity: 0.75;	
+}
+
+article#post-24.post-type-page.post-24.page.type-page.status-publish.hentry section.entry-content figure.wp-block-embed-vimeo {
+	text-align: center;
+	margin-left: 0;
+	margin-right: 0;
+	padding: 55px 0;
+	background-color: silver;
+}
+
+div#g-owlcarousel-owlcarousel-8306  div.owl-item.active div.g-owlcarousel-item .g-owlcarousel-item-wrapper {
+	height: auto;
+	padding: 22px;
+	min-height: 500px;
+}
+
+footer#g-footer div.g-container div.g-content a {
+	color: #e8f4fd;
 }
 
 /* @end */
 
-/* @group HOME HERO */
-	
-	div#g-owlcarousel-owlcarousel-6479 h1.g-owlcarousel-item-title {
-	font: 3em 'MaduraiSlab-NorBol', "Oswald Regular", Oswald, sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	}
-	
-	
-	div#g-owlcarousel-owlcarousel-6479 h1.g-owlcarousel-item-title span {
-		font-family: 'Raleway', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-		text-transform: lowercase;
-		font-weight: 100;
-	}
-	
-	header#g-header  {
-	top: -100px;
-	position: relative;
-	margin-bottom: -100px;
-	}
-	
-	/* @end */
-	
-	
-	
-	
-	
-	
-	article#post-24.post-type-page.post-24.page.type-page.status-publish.hentry section.entry-content figure.wp-block-embed-vimeo{
-		text-align: center;
-		margin-left: 0;
-	margin-right: 0;
-	padding: 55px 0;
-	background-color: silver;
-	}
-	
-	
-	
-	div#g-owlcarousel-owlcarousel-8306  div.owl-item.active div.g-owlcarousel-item .g-owlcarousel-item-wrapper   {
-		height: auto;
-		padding: 22px;
-		min-height: 500px;
-	}
-	
-	
-	
-	
-	
-	
-	
-	
+/* @group EXPANDED - Forms */
 
-	footer#g-footer div.g-container div.g-content a{
-		color: #e8f4fd;
+#g-expanded {
+	background: url(http://localhost:8888/leadership20/wp-content/themes/liTwenty/custom/images/Silent-2440.jpg) center top no-repeat;
+	background-size: cover;
+	position: relative;
+	z-index: 10;
+}	
+	#g-expanded:before {
+	    background-color: #e5cc90;
+	    background-image: -webkit-linear-gradient(22deg, #e5cc90 0%, #074e87 100%);
+	background-image: linear-gradient(22deg, #e5cc90 0%, #074e87 100%);
+		opacity: 0.8;
+	    position: absolute;
+	    content: "";
+	    top: 0;
+	    right: 0;
+	    bottom: 0;
+	    left: 0;
+	    z-index: -1;
 	}
+
+/* @end */
+
+section.entry-content div.boxed h1 {
+	text-transform: uppercase;
+	font: 2.75em MaduraiSlab-NorBol, slab-serif, sans-serif;
+	text-align: center;
+}
+section.entry-content div.boxed h3 {
+	text-align: center;
+	font-family: Raleway, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+	font-weight: 600;
+	line-height: 1.5em;
+}
