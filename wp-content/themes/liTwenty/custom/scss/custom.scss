@@ -63,10 +63,13 @@ body {
 
 section#g-navigation.animated.headroom--top.headroom--not-bottom {
 	max-height: 90px;
-}
 
-div#g-page-surround div.g-fixed-container {
-	margin-bottom: -60px;
+}
+.g-fixed-container {
+	position: fixed;
+	top: 0;
+	z-index: 11;
+	width: 100%;
 }
 
 div#logo-3944-particle.g-content.g-particle a.g-logo img {
@@ -107,9 +110,6 @@ div#g-owlcarousel-owlcarousel-6479 h1.g-owlcarousel-item-title span {
 }
 
 header#g-header {
-	top: -100px;
-	position: relative;
-	margin-bottom: -100px;
 }
 
 .g-owlcarousel.has-color-overlay .owl-stage > .owl-item:nth-child(odd) .g-owlcarousel-item-img:after {
@@ -133,9 +133,7 @@ div#g-owlcarousel-owlcarousel-8306  div.owl-item.active div.g-owlcarousel-item .
 	min-height: 500px;
 }
 
-footer#g-footer div.g-container div.g-content a {
-	color: #e8f4fd;
-}
+
 
 /* @end */
 
@@ -173,4 +171,28 @@ section.entry-content div.boxed h3 {
 	font-family: Raleway, Helvetica, Tahoma, Geneva, Arial, sans-serif;
 	font-weight: 600;
 	line-height: 1.5em;
+}
+
+
+
+
+
+
+footer#g-footer div.g-container div.g-content a {
+	color: #e8f4fd;
+	padding-top: 0;
+}
+footer#g-footer ul.sub-menu li {
+
+	line-height: 1.2em;
+}
+
+div#custom-4052-particle.g-content.g-particle div.g-grid div.g-block.size-100 div.g-grid div.g-block.size-50.address p {
+	margin-bottom: 0;
+	margin-top: 0;
+	line-height: 1.5em;
+}
+
+footer#g-footer div.g-container div.g-content a:hover{
+	color: silver;
 }

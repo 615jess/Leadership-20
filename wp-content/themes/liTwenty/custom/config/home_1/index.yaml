@@ -1,5 +1,5 @@
 name: home_1
-timestamp: 1576881171
+timestamp: 1577131137
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -22,19 +22,9 @@ sections:
   footer: Footer
   offcanvas: Offcanvas
 particles:
-  messages:
-    system-messages-9605: 'System Messages'
-  logo:
-    logo-3944: 'Logo / Image'
-  menu:
-    menu-4298: Menu
   owlcarousel:
     owlcarousel-6479: 'Owl Carousel'
     owlcarousel-8306: 'Owl Carousel'
-  position:
-    position-position-1455: Aside
-  content:
-    system-content-5805: 'Page Content'
   custom:
     custom-2922: 'Custom HTML'
     custom-5996: 'Custom HTML'
@@ -48,6 +38,16 @@ particles:
     position-widget-4012: Widget
     position-widget-3737: Widget
     position-widget-5534: Widget
+  messages:
+    system-messages-9605: 'System Messages'
+  logo:
+    logo-3944: 'Logo / Image'
+  menu:
+    menu-4298: Menu
+  position:
+    position-position-1455: Aside
+  content:
+    system-content-5805: 'Page Content'
   branding:
     branding-9171: Branding
   copyright:
@@ -59,17 +59,18 @@ particles:
 inherit:
   default:
     navigation: navigation
-    system-messages-9605: system-messages-7972
-    logo-3944: logo-8809
-    menu-4298: menu-6409
     intro: intro
     utility: utility
     above: above
     aside: aside
-    position-position-1455: position-position-4734
     mainbar: mainbar
-    system-content-5805: system-content-1587
     footer: footer
+    offcanvas: offcanvas
+    system-messages-9605: system-messages-7972
+    logo-3944: logo-8809
+    menu-4298: menu-6409
+    position-position-1455: position-position-4734
+    system-content-5805: system-content-1587
     position-widget-4012: position-widget-9947
     position-widget-3737: position-widget-9676
     position-widget-5534: position-widget-6149
@@ -78,5 +79,4 @@ inherit:
     custom-8362: custom-5841
     copyright-1372: copyright-1736
     totop-6625: totop-8670
-    offcanvas: offcanvas
     mobile-menu-1564: mobile-menu-5697

@@ -51,7 +51,9 @@ structure:
   navigation:
     type: section
     attributes:
-      boxed: ''
+      boxed: '0'
+      class: ''
+      variations: ''
   header:
     attributes:
       boxed: '2'
@@ -147,5 +149,10 @@ content:
     title: 'Custom HTML'
     attributes:
       html: '<hr />'
+  copyright-1736:
+    block:
+      fixed: '1'
   totop-8670:
     title: 'To Top'
+    block:
+      fixed: '1'
